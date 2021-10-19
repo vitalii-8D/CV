@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro:wght@400;600;700&family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #222222;
+}
+
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 8.5in;
+  height: 12in;
+  background-color: #f0f0f0;
+  box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.7);
+}
+
+.profile {
+  width: 38%;
+  height: 100%;
+  background-color: #DFE8E7;
+}
+.profile .title {
+  padding: 15px 15px 10px;
+  margin-bottom: 10px;
+}
+.profile .title p {
+  font-family: "Andada Pro", serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.profile .title.name {
+  text-align: center;
+  padding: 0;
+}
+.profile .title.name p {
+  font-size: 24px;
+  letter-spacing: 0.06em;
+}
+.profile .profile-section {
+  position: relative;
+  padding: 10px 15px 15px;
+}
+.profile .profile-section.info .info-item {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.profile .profile-section.info .info-item div:last-child {
+  margin-bottom: 0;
+}
+.profile .profile-section.skills .skills-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  margin-bottom: 10px;
+}
+.profile .profile-section.links .links-item {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.profile .profile-section.links .links-item div {
+  display: inline-block;
+}
+.profile .profile-section::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 3px;
+  background-color: black;
+}
+.profile .profile-section:last-child::after {
+  display: none;
+}
+.profile .photo {
+  padding: 10px;
+  overflow: hidden;
+}
+.profile .photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.profile .icon-rounded {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  border-radius: 100%;
+  background-color: #ffffff;
+  margin-right: 10px;
+}
+.profile .icon-rounded i {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 22px;
+}
+
+.details {
+  width: 62%;
+  text-align: center;
+}
+.details > div {
+  margin-bottom: 20px;
+}
+.details .title {
+  display: inline-block;
+  position: relative;
+  font-family: "Andada Pro", serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 20px auto;
+}
+.details .title::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 3px;
+  background-color: #222222;
+}
+.details .content {
+  font-size: 16px;
+  text-align: justify;
+  text-indent: 20px;
+}
+.details .summary {
+  margin-bottom: 0;
+  padding: 0 20px 40px;
+  background-color: rgba(223, 232, 231, 0.5);
+}
+.details .education {
+  padding: 0 20px;
+}
+.details .education .edu-item {
+  margin-bottom: 5px;
+}
+.details .courses {
+  padding: 0 20px;
+}
+.details .courses .courses-item {
+  margin-bottom: 10px;
+}
+.details .main-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding: 0 20px;
+}
+.details .main-info .place {
+  font-weight: 700;
+}
+.details .main-info .time {
+  font-style: italic;
+}
+.details .item-details {
+  font-size: 16px;
+  text-align: left;
+}
+.details .work {
+  padding: 0 20px;
+}
+.details .work .responsibilities {
+  padding: 8px 20px;
+  text-align: left;
+}
+.details .work .responsibilities .header {
+  margin-bottom: 8px;
+  font-style: italic;
+}
+.details .work .responsibilities .list {
+  padding-left: 20px;
+}
+.details .work .responsibilities .list li {
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 5px;
+}
+
+/*# sourceMappingURL=main.css.map */
